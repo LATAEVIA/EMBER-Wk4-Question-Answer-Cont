@@ -1,0 +1,30 @@
+{ "questions": [{
+    "pregunta": "What is the Answer to the Ultimate Question of Life, The Universe, and Everything?",
+    "author": "Some Guy",
+    "notes": "According to The Hitchhiker's Guide to the Galaxy by Douglas Adams, what is the Answer to the Ultimate Question of Life, the Universe, and Everything, as calculated by an enormous supercomputer named Deep Thought over a period of 7.5 million years?"
+
+  }, {
+    "pregunta": "What's half of 100?",
+    "author": "Some Gal",
+    "notes": "This whole division thing has me down, could you help?"
+
+  }, {
+    "pregunta": "Why did the chicken cross the road?",
+    "author": "Some comedian kid",
+    "notes": "C'mon!?"
+
+  }],
+  "answers": [{
+    "respuesta": "42",
+    "author": "That Guy",
+    "pregunta": "What is the Answer to the Ultimate Question of Life, The Universe, and Everything?"
+  }, {
+    "respuesta": "50",
+    "author": "That Gal",
+    "pregunta": "What's half of 100?"
+  }, {
+    "respuesta": "For chicken feed",
+    "author": "That comedian kid",
+    "pregunta": "Why did the chicken cross the road?"
+  }]
+}

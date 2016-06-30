@@ -1,0 +1,10 @@
+<h1> Welcome to another Question Answer website</h1>
+
+<ul>
+  {{#each model as |question|}}
+    {{question-tile question=question}}
+  {{/each}}
+</ul>
+
+
+{{new-question save="save"}}
