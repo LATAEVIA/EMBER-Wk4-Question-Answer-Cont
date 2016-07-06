@@ -2,16 +2,11 @@ import Ember from 'ember';
 import moment from 'moment';
 
 export function answerTimestamp(params) {
-  var time = params[0];
+  var answerTime = params[0].get('time');
 
-  return moment(time).format("dddd, MMMM Do YYYY, h:mm:ss a");
+  return moment(answerTime).format("dddd, MMMM Do, YYYY, h:mm a");
+
+  // (Ember.String.htmlSafe('<span class="glyphicon glyphicon-time"></span>')) (moment(answerTime).format("dddd, MMMM Do YYYY, h:mm:ss a"));
 }
-
+//
 export default Ember.Helper.helper(answerTimestamp);
-
-
-
-//   if(city.get('rentals').get('length') >= 5) {
-//     return Ember.String.htmlSafe('<span class="glyphicon glyphicon-fire"></span>');
-//   }
-// }
