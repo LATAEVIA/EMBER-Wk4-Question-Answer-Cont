@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import Firebase from 'firebase';
 
 export default Ember.Route.extend({
   model(params) {
@@ -12,6 +13,8 @@ export default Ember.Route.extend({
     Ember.set(controller, 'answers', model.answers);
     Ember.set(controller, 'question', model.question);
   },
+
+  // }),
   // using RSVP hash to load two model hooks in one route
   actions: {
     update(question, params) {
