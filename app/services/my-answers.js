@@ -5,5 +5,7 @@ export default Ember.Service.extend({
 
   add(myAnswer) {
     this.get('myAnswers').pushObject(myAnswer);
-  }
+    console.log(myAnswer);
+  },
+
 });

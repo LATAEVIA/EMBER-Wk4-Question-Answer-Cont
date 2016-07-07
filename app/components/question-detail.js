@@ -6,10 +6,10 @@ export default Ember.Component.extend({
     var questionAnswer = this.get('question.answers');
     var answerCount = [];
     questionAnswer.forEach(function (value, i) {
-        console.log('%d: %s', i, value);
+        // console.log('%d: %s', i, value);
         answerCount.push(value);
     });
-    console.log(answerCount.length);
+    // console.log(answerCount.length);
     return answerCount.length;
   })
 })

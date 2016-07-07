@@ -1,7 +1,9 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  myAnswers: Ember.inject.service(),
   addNewAnswer: false,
+
   actions: {
     answerFormShow() {
       this.set('addNewAnswer', true);
@@ -17,6 +19,7 @@ export default Ember.Component.extend({
       console.log(params);
       this.set('addNewAnswer', false);
       this.sendAction('saveAnswer', params);
-    }
+    },
+
   }
 });
