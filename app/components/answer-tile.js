@@ -5,25 +5,14 @@ export default Ember.Component.extend({
 
   actions: {
     addToMyAnswers(myAnswer) {
-      // var paramsAgain = {
+      // var params = {
       //   respuesta: this.get('respuesta') ? this.get('respuesta') : "",
       //   author: this.get('author') ? this.get('author') : "",
       //   time: (new Date().toString()),
       //   pregunta: this.get('question')
       // };
-      console.log("paramsAgain");
-      // this.get('myAnswers').add(paramsAgain);
+      this.get('myAnswers').add(myAnswer);
+      // console.log(myAnswer);
     },
   }
 });
-
-
-import Ember from 'ember';
-
-export default Ember.Component.extend({
-  shoppingCart: Ember.inject.service(),
-
-  actions: {
-    addToCart(item) {
-      this.get('shoppingCart').add(item);
-    },

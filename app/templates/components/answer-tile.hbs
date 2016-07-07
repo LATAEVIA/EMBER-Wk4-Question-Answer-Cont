@@ -1,10 +1,11 @@
+<h3>All Answers</h3>
 <ul>
   {{#each question.answers as |answer|}}
+  <hr>
     <li>Timestamp: {{answer-timestamp answer}}</li>
     <li>Question: {{question.pregunta}}</li>
     <li>Answer: {{answer.respuesta}}</li>
     <li>Author: {{answer.author}}</li>
-    <hr>
     <button {{action 'addToMyAnswers' answer}}>Add to Your Answers</button>
   {{/each}}
 </ul>

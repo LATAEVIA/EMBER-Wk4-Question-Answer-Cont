@@ -1,5 +1,6 @@
-MyAnswers
-
-{{#each myAnswers.myAnswer as |myAnswer|}}
-  {{myAnswer.author}}
+<h3>My Answers</h3>
+<ul>
+{{#each myAnswers.myAnswersArray as |myAnswer|}}
+  <li>{{myAnswer.respuesta}}</li>
 {{/each}}
+</ul>
