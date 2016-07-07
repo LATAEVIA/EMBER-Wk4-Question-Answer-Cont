@@ -16,7 +16,7 @@ export default Ember.Component.extend({
         time: (new Date().toString()),
         pregunta: this.get('question')
       };
-      console.log(params);
+      console.log(params.time );
       this.set('addNewAnswer', false);
       this.sendAction('saveAnswer', params);
     },

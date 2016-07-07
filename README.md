@@ -1,6 +1,6 @@
-# _Epicodus JavaScript Week 3 Independent Project: Question Answer_
+# _Epicodus JavaScript Week 4 Independent Project: Question Answer Continued_
 
-#### _A web application that mimics a message board. Users can view, add and edit questions, and add answers to existing questions., 06/08/2016_
+#### _A web application that mimics a message board. Users can view, add and edit questions, and add answers to existing questions. Also added computed property, helper, and intergrated service, 06/08/2016_
 
 #### By _**LaTaevia**_
 
@@ -16,7 +16,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone https://github.com/LATAEVIA/EMBER-Wk3-Question-Answer.git` 
+* `git clone https://github.com/LATAEVIA/EMBER-Wk4-Question-Answer-Cont.git`
 * change into the new directory
 * `npm install`
 * `bower install`
