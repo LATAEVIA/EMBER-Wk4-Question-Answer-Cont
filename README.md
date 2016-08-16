@@ -1,8 +1,12 @@
-# _Epicodus JavaScript Week 4 Independent Project: Question Answer Continued_
+# _Question Answer Continued_
 
-#### _A web application that mimics a message board. Users can view, add and edit questions, and add answers to existing questions. Also added computed property, helper, and intergrated service, 06/08/2016_
+#### _A continuation of [Question Answer] (https://github.com/LATAEVIA/Question-Answer-Message-Board.git) with added computed property, helper, and integrated service, 06/08/2016_
 
 #### By _**LaTaevia**_
+
+## Description
+
+_A web application build as a review of competencies in the following: using routes to control navigation through an Ember.js application, using Handlebars to create dynamic elements in templates, persisting data with models, Ember Data and Firebase, manipulating data between models and templates using components, and creating a working application using Ember._
 
 ## Prerequisites
 
@@ -16,34 +20,17 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone https://github.com/LATAEVIA/EMBER-Wk4-Question-Answer-Cont.git`
+* `git clone https://github.com/LATAEVIA/Question-Answer-Message-Board-Part-2.git`
 * change into the new directory
 * `npm install`
 * `bower install`
 * `ember install emberfire`
 
-## Running / Development
+# Running / Development
 
+_Implement development server with live reloading:_
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-<!-- ### Deploying
-
-Specify what it takes to deploy your app. -->
 
 ## Technologies Used
 
@@ -51,19 +38,11 @@ Specify what it takes to deploy your app. -->
 * _CSS_
 * _Bootstrap_
 * _JavaScript_
-* _Ember_
-* _Firebase_
+* _Node.js_
 * _Node Package Manager_
 * _Bower_
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-* [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-* [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+* _Ember.js_
+* _TypeScript_
 
 ### License
 
